@@ -13,7 +13,8 @@ class MyDotsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
-        Container(
+        AnimatedContainer(
+          duration: Duration(milliseconds: 300),
           height: 7,
           width: 7,
           decoration: BoxDecoration(
@@ -22,7 +23,8 @@ class MyDotsApp extends StatelessWidget {
           ),
         ),
         SizedBox(width: 8),
-        Container(
+        AnimatedContainer(
+          duration: Duration(milliseconds: 300),
           height: 7,
           width: 7,
           decoration: BoxDecoration(
@@ -31,7 +33,8 @@ class MyDotsApp extends StatelessWidget {
           ),
         ),
         SizedBox(width: 8),
-        Container(
+        AnimatedContainer(
+          duration: Duration(milliseconds: 300),
           height: 7,
           width: 7,
           decoration: BoxDecoration(
